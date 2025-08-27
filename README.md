@@ -55,9 +55,10 @@ Create a function declaration called `maxOfTwo` that takes two numbers and retur
 
 ## 10. Functions with HTML Events
 
-Make a button in HTML:
+Make two buttons in HTML:
 ```html
 <button id="colorBtn">Change Color</button>
+<button id="jsBtn">Bind via addEventListener</button>
 ```
 Then write two versions in JavaScript:
 1. A function declaration `changeColor` that sets the button’s background color to `"lightblue"`. Bind it using the `onclick` attribute in HTML.
